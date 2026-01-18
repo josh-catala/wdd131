@@ -10,12 +10,14 @@ function changeTheme() {
         // code for changes to colors and logo
         document.body.style.backgroundColor = 'black';
         document.body.style.color = 'white';
+        document.getElementById('content').style.border = '1px solid white';
         logo.src = "images/byui-logo-white.png";
         
     } else {
         // code for changes to colors and logo
         document.body.style.backgroundColor = 'white';
         document.body.style.color = 'black';
+        document.getElementById('content').style.border = '1px solid black';
         logo.src = "images/byui-logo-blue.png";
         
     }
