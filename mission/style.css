@@ -33,10 +33,19 @@ h2 {
     color: #0f89da;
 }
 
-p, ol, li{
-    font-weight: 450;
+li{
+    width: 90%;
+    font-size: 1.05em;
     margin-bottom: 30px;
+    line-height: 25px;
 }
+
+p{
+    width: 90%;
+    font-size: 1.075em;
+    line-height: 25px;
+}
+
 
 #logo-container{
     width: 200px;
