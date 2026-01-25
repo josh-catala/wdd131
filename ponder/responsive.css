@@ -18,8 +18,8 @@ footer {
 
 
 main{
-        display: grid;
-        grid-template-columns: 1fr;}
+    display: grid;
+    grid-template-columns: 1fr;}
 
 section {
     padding: 20px;
