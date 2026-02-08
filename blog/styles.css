@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#nav-buttons {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+    justify-content: end;
+    border-top: 3px solid gold;
+    border-bottom: 3px solid gold;
+    border-width: 90%;
+}
+
+#nav-buttons li,
+#nav-buttons a {
+    margin: 1rem;
+    text-decoration: none;
+    color: darkred;
+}
+
+#main-content {
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 3px solid gold;
+}
+
+#book-info {
+    text-align: end;
+    margin-right: 2rem;
+}
+
+#book-intro {
+    width: 90%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border-top: 3px solid gold;
+}
+
+@media (min-width: 600px) {
+    #main-content {
+        padding: 2rem;
+        margin-top: 0;
+        display: grid;
+        text-align: unset;
+        grid-template-columns: 1.75fr 3fr;
+        border-top: none;
+        grid-auto-flow: row;
+    }
+    
+    #book-info {
+        justify-content: end;
+        padding-right: 2rem;
+        border-right: 3px solid gold;
+    }
+
+    #book-intro {
+        height: 65vh;
+        display: grid;
+        padding-left: 1rem;
+        text-align: unset;
+        grid-template-rows: 3rem 350px 3rem;
+        justify-content: left;
+        align-items: center;
+    }
+
+    #book-intro img{
+        justify-self: center;
+    }
+} 
