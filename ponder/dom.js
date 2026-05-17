@@ -4,7 +4,7 @@ console.log(title);
 
 title.textContent = 'Web Page Components';
 
-let topics = document.querySelector('#topics').style.color = 'red';
+let topics = document.querySelector('#topics')
 
 document.getElementById('topics').style.color = 'purple';
 
@@ -18,11 +18,10 @@ let para = document.querySelector('p')
 
 para.classList.add('background');
 
-document.querySelector('body').classList.add('background');
+// document.querySelector('body').classList.add('background');
 
 const image = document.querySelector('img');
 image.setAttribute('src', '')
-
 
 let selectElem = document.getElementById('webdevlist');
 selectElem.addEventListener('change', function(){
